@@ -1,0 +1,19 @@
+{
+  "name": "libraryportal",
+  "version": "1.0.0",
+  "description": "Portal to manage Library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --recursive --exit"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "Danish",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}
